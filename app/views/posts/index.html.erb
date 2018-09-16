@@ -1,0 +1,13 @@
+<div class="container">
+  <h2> Blog </h2>
+  <%= @posts.each do |post|  %>
+    <div>
+      <% if post.photo == true %>
+      <%= post.photo %>
+      <% end %>
+      <%= post.title %>
+      <%= post.subtitle %>
+      <%= post.content %>
+    </div>
+  <% end %>
+</div>

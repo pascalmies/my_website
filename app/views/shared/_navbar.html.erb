@@ -6,6 +6,9 @@
     <%= "About Me" %>
     <%= "Blog" %>
     <%= "Contact" %>
+    <% if current_user  %>
+    <%= link_to "New Post", new_post_path  %>
+    <% end %>
   </div>
 </div>
 
