@@ -1,5 +1,48 @@
 // Specific CSS for your home-page
-.home-background {
-  background-color: white;
-  height: auto 100%
+body {
+  height: 100vh;
 }
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+
+.title {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.home-first-page {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.home-information {
+  text-align: center;
+  margin-top: -10%;
+}
+
+.home-title {
+  font-size: 84px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.home-second-page {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.title-center {
+  text-align: center;
+}
+
+.second-title {
+  font-size: 24px;
+}
+
+

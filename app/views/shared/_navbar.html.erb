@@ -3,9 +3,9 @@
     <img class="navbar-avatar" src="https://picsum.photos/200" alt="">
   </div> -->
   <div class="navigation-links">
-    <%= "About Me" %>
-    <%= "Blog" %>
-    <%= "Contact" %>
+    <%= link_to "About", about_path %>
+    <%= link_to "Blog", blog_path %>
+    <%= link_to "Contact", contact_path %>
     <% if current_user  %>
     <%= link_to "New Post", new_post_path  %>
     <% end %>
